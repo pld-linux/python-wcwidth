@@ -9,7 +9,7 @@ Summary:	Measures number of Terminal column cells of wide-character codes
 Summary(pl.UTF-8):	Mierzy liczbe kolumn terminala konieczna do wyświetlenia znaków
 Name:		python-%{module}
 Version:	0.1.6
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://github.com/jquast/wcwidth/archive/%{version}.tar.gz
