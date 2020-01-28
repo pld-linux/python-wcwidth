@@ -8,13 +8,13 @@
 Summary:	Measure the number of terminal column cells of wide-character codes
 Summary(pl.UTF-8):	Pomiar liczby kolumn terminala koniecznych do wyświetlenia znaków
 Name:		python-%{module}
-Version:	0.1.7
-Release:	2
+Version:	0.1.8
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://github.com/jquast/wcwidth/releases
 Source0:	https://github.com/jquast/wcwidth/archive/%{version}/%{module}-%{version}.tar.gz
-# Source0-md5:	77e4c7d31435a57792b4e42961e8aad6
+# Source0-md5:	66162542f776260ae611085ca92a97f1
 URL:		https://pypi.org/project/wcwidth/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
@@ -104,7 +104,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc LICENSE.txt README.rst
 %{py_sitescriptdir}/wcwidth
-%{py_sitescriptdir}/wcwidth-%{version}-py*.egg-info
+%{py_sitescriptdir}/wcwidth-0.1.7-py*.egg-info
 %endif
 
 %if %{with python3}
@@ -112,5 +112,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc LICENSE.txt README.rst
 %{py3_sitescriptdir}/wcwidth
-%{py3_sitescriptdir}/wcwidth-%{version}-py*.egg-info
+%{py3_sitescriptdir}/wcwidth-0.1.7-py*.egg-info
 %endif
