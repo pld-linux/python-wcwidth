@@ -11,7 +11,7 @@ Summary:	Measure the number of terminal column cells of wide-character codes
 Summary(pl.UTF-8):	Pomiar liczby kolumn terminala koniecznych do wyświetlenia znaków
 Name:		python-%{module}
 Version:	0.2.5
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://github.com/jquast/wcwidth/releases
